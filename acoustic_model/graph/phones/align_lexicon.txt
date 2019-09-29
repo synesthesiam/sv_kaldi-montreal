@@ -1,0 +1,37 @@
+<eps> <eps> sil
+av av abl_B v_E
+berätta berätta b_B el_I r_I ael_I t_I abl_E
+blå blå b_B l_I ol_E
+det det d_B el_I t_E
+dörren dörren d_B ole_I r_I el_I n_E
+färg färg f_B ale_I r_I j_E
+färgen färgen f_B ale_I r_I j_I el_I n_E
+för för f_B ole_I r_E
+garage garage g_B a_I r_I abl_I j_I el_E
+garagelampan garagelampan g_B a_I r_I a_I j_I el_I l_I a_I m_I p_I abl_I n_E
+grön grön g_B r_I oel_I n_E
+hur hur h_B uxl_I r_E
+kalt kalt k_B a_I l_I t_E
+klockan klockan k_B l_I ol_I s_I k_I abl_I n_E
+läs läs l_B ael_I s_E
+mig mig m_B il_I g_E
+mycket mycket m_B ue_I k_I el_I t_E
+på på p_B ol_E
+röd röd r_B oel_I d_E
+släck släck s_B l_I ael_I k_E
+sovrumslampa sovrumslampa s_B oc_I v_I r_I uxl_I m_I s_I l_I a_I m_I p_I abl_E
+starta starta s_B t_I a_I tr_I abl_E
+stäng stäng s_B t_I ae_I ng_E
+stängd stängd s_B t_I ae_I ng_I d_E
+sätt sätt s_B ael_I t_E
+temperaturen temperaturen t_B ae_I m_I p_I e_I r_I abl_I t_I uxl_I r_I el_I n_E
+tiden tiden t_B il_I d_I el_I n_E
+till till t_B il_I l_E
+tänd tänd t_B ael_I n_I d_E
+upp upp ox_B p_E
+vad vad v_B al_I d_E
+vardagsrumslampan vardagsrumslampan v_B abl_I dr_I a_I g_I s_I r_I uxl_I m_I s_I l_I a_I m_I p_I abl_I n_E
+varmt varmt v_B a_I r_I m_I t_E
+ändra ändra ael_B n_I d_I r_I abl_E
+är är alel_B r_E
+öppen öppen oe_B p_I el_I n_E

@@ -1,0 +1,14 @@
+language:
+  name: "swedish"
+  code: "sv"
+speech-to-text:
+  kaldi:
+    model-type: "gmm"
+
+training:
+  kaldi:
+    model-type: "gmm"
+
+text-to-speech:
+  espeak:
+    voice: "sv"
