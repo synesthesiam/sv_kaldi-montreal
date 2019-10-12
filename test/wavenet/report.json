@@ -3,20 +3,23 @@
     "num_wavs": 32,
     "num_words": 137,
     "num_entities": 48,
-    "correct_transcriptions": 8,
+    "correct_transcriptions": 18,
     "correct_intent_names": 22,
-    "correct_words": 103,
+    "correct_words": 106,
     "correct_entities": 30,
-    "transcription_accuracy": 0.7518248175182481,
+    "transcription_accuracy": 0.7737226277372263,
     "intent_accuracy": 0.6875,
-    "entity_accuracy": 0.625
+    "entity_accuracy": 0.625,
+    "intent_entity_accuracy": 0.6875,
+    "average_transcription_speedup": 13.6697893082476
   },
   "actual": {
     "sätt_färgen_på_sovrumslampa_till_blå.wav": {
       "text": "sätt färgen på sovrumslampa till blå",
       "intent": {
         "name": "ChangeLightColor",
-        "confidence": 0.8571428571428571
+        "confidence": 0.8571428571428571,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -60,9 +63,11 @@
         "color": "blå"
       },
       "intents": [],
-      "recognize_seconds": 0.0005552768707275391,
+      "recognize_seconds": 0.0008063316345214844,
       "wav_seconds": 2.284813,
-      "transcribe_seconds": 0.118753,
+      "transcribe_seconds": 0.11846,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "sätt färgen på sovrumslampa till blå",
         "actual": "sätt färgen på sovrumslampa till blå",
@@ -75,7 +80,8 @@
       "text": "on sovrumslampa tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.4
+        "confidence": 0.4,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -113,22 +119,25 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0007760524749755859,
+      "recognize_seconds": 0.0006289482116699219,
       "wav_seconds": 2.110187,
-      "transcribe_seconds": 0.119983,
+      "transcribe_seconds": 0.113345,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "äNDRA FäRG På sovrumslampa GRöN",
-        "actual": "***    ***   ON  sovrumslampa TäND",
+        "expected": "äNDRA FäRG på sovrumslampa GRöN",
+        "actual": "***    ***   på sovrumslampa TäND",
         "words": 5,
-        "correct": 1,
-        "errors": 4
+        "correct": 2,
+        "errors": 3
       }
     },
     "är_garage_dörren_stängd.wav": {
       "text": "är garage dörren stängd",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "är garage dörren stängd",
@@ -146,9 +155,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005424022674560547,
+      "recognize_seconds": 0.0004754066467285156,
       "wav_seconds": 1.401812,
-      "transcribe_seconds": 0.103232,
+      "transcribe_seconds": 0.128331,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "är garage dörren stängd",
         "actual": "är garage dörren stängd",
@@ -161,7 +172,8 @@
       "text": "off sovrumslampa stäng av",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.75
+        "confidence": 0.75,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -201,42 +213,48 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0006542205810546875,
+      "recognize_seconds": 0.0005557537078857422,
       "wav_seconds": 1.571438,
-      "transcribe_seconds": 0.105477,
+      "transcribe_seconds": 0.099654,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off sovrumslampa stäng av",
-        "actual": "off sovrumslampa stäng av",
+        "expected": "av  sovrumslampa stäng av",
+        "actual": "av  sovrumslampa stäng av",
         "words": 4,
         "correct": 4,
         "errors": 0
       }
     },
     "ändra_färg_på_sovrumslampa_till_röd.wav": {
-      "text": "ändra färg på sovrumslampa till läs",
+      "text": "ändra färg på sovrumslampa tiden",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0006964206695556641,
+      "recognize_seconds": 0.0005605220794677734,
       "wav_seconds": 2.160062,
-      "transcribe_seconds": 0.130649,
+      "transcribe_seconds": 0.112464,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "ändra färg på sovrumslampa till RöD",
-        "actual": "ändra färg på sovrumslampa till LäS",
+        "expected": "ändra färg på sovrumslampa TILL RöD",
+        "actual": "ändra färg på sovrumslampa ***  TIDEN",
         "words": 6,
-        "correct": 5,
-        "errors": 1
+        "correct": 4,
+        "errors": 2
       }
     },
     "sätt_färgen_på_sovrumslampa_till_grön.wav": {
       "text": "on sovrumslampa tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.3333333333333333
+        "confidence": 0.3333333333333333,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -274,22 +292,25 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0007052421569824219,
+      "recognize_seconds": 0.0012869834899902344,
       "wav_seconds": 2.364625,
-      "transcribe_seconds": 0.121308,
+      "transcribe_seconds": 0.161551,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "SäTT FäRGEN På sovrumslampa TILL GRöN",
-        "actual": "***   ***     ON  sovrumslampa ***  TäND",
+        "expected": "SäTT FäRGEN på sovrumslampa TILL GRöN",
+        "actual": "***   ***     på sovrumslampa ***  TäND",
         "words": 6,
-        "correct": 1,
-        "errors": 5
+        "correct": 2,
+        "errors": 4
       }
     },
     "hur_kalt_är_det.wav": {
       "text": "hur kalt är det",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "hur kalt är det",
@@ -307,9 +328,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005512237548828125,
+      "recognize_seconds": 0.0005900859832763672,
       "wav_seconds": 0.972812,
-      "transcribe_seconds": 0.102958,
+      "transcribe_seconds": 0.131628,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "hur kalt är det",
         "actual": "hur kalt är det",
@@ -322,7 +345,8 @@
       "text": "off garagelampan stäng av",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -362,12 +386,14 @@
         "name": "garagelampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0006012916564941406,
+      "recognize_seconds": 0.00066375732421875,
       "wav_seconds": 1.506563,
-      "transcribe_seconds": 0.106275,
+      "transcribe_seconds": 0.134061,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off garagelampan stäng av",
-        "actual": "off garagelampan stäng av",
+        "expected": "av  garagelampan stäng av",
+        "actual": "av  garagelampan stäng av",
         "words": 4,
         "correct": 4,
         "errors": 0
@@ -377,7 +403,8 @@
       "text": "on sovrumslampa tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.3333333333333333
+        "confidence": 0.3333333333333333,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -415,22 +442,25 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0007500648498535156,
+      "recognize_seconds": 0.0007812976837158203,
       "wav_seconds": 2.31475,
-      "transcribe_seconds": 0.131334,
+      "transcribe_seconds": 0.178464,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "äNDRA FäRG På sovrumslampa TILL GRöN",
-        "actual": "***    ***   ON  sovrumslampa ***  TäND",
+        "expected": "äNDRA FäRG på sovrumslampa TILL GRöN",
+        "actual": "***    ***   på sovrumslampa ***  TäND",
         "words": 6,
-        "correct": 1,
-        "errors": 5
+        "correct": 2,
+        "errors": 4
       }
     },
     "läs_upp_tiden_för_mig.wav": {
       "text": "läs upp tiden för mig",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "läs upp tiden för mig",
@@ -450,9 +480,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005738735198974609,
+      "recognize_seconds": 0.0005655288696289062,
       "wav_seconds": 1.481625,
-      "transcribe_seconds": 0.113431,
+      "transcribe_seconds": 0.131884,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "läs upp tiden för mig",
         "actual": "läs upp tiden för mig",
@@ -465,7 +497,8 @@
       "text": "on sovrumslampa starta",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -503,12 +536,14 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0006630420684814453,
+      "recognize_seconds": 0.0005435943603515625,
       "wav_seconds": 1.676187,
-      "transcribe_seconds": 0.109995,
+      "transcribe_seconds": 0.108475,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  sovrumslampa starta",
-        "actual": "on  sovrumslampa starta",
+        "expected": "på sovrumslampa starta",
+        "actual": "på sovrumslampa starta",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -518,7 +553,8 @@
       "text": "hur mycket är klockan",
       "intent": {
         "name": "GetTime",
-        "confidence": 0.3333333333333333
+        "confidence": 0.3333333333333333,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "hur mycket är klockan",
@@ -536,9 +572,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00063323974609375,
+      "recognize_seconds": 0.0005435943603515625,
       "wav_seconds": 0.99275,
-      "transcribe_seconds": 0.101922,
+      "transcribe_seconds": 0.109744,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "*** VAD    är klockan",
         "actual": "HUR MYCKET är klockan",
@@ -551,7 +589,8 @@
       "text": "on vardagsrumslampan tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.75
+        "confidence": 0.75,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -589,12 +628,14 @@
         "name": "vardagsrumslampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0006225109100341797,
+      "recognize_seconds": 0.0005850791931152344,
       "wav_seconds": 1.87075,
-      "transcribe_seconds": 0.109138,
+      "transcribe_seconds": 0.111928,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  vardagsrumslampan STARTA",
-        "actual": "on  vardagsrumslampan TäND",
+        "expected": "på vardagsrumslampan STARTA",
+        "actual": "på vardagsrumslampan TäND",
         "words": 3,
         "correct": 2,
         "errors": 1
@@ -604,7 +645,8 @@
       "text": "vad är temperaturen",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 0.125
+        "confidence": 0.125,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "vad är temperaturen",
@@ -620,9 +662,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0007474422454833984,
+      "recognize_seconds": 0.0005280971527099609,
       "wav_seconds": 2.494312,
-      "transcribe_seconds": 0.133098,
+      "transcribe_seconds": 0.121218,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "äR GARAGE DöRREN öPPEN",
         "actual": "*** VAD    äR     TEMPERATUREN",
@@ -635,7 +679,8 @@
       "text": "on garagelampan starta",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -673,12 +718,14 @@
         "name": "garagelampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0006177425384521484,
+      "recognize_seconds": 0.0007927417755126953,
       "wav_seconds": 1.64625,
-      "transcribe_seconds": 0.113931,
+      "transcribe_seconds": 0.1432,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  garagelampan starta",
-        "actual": "on  garagelampan starta",
+        "expected": "på garagelampan starta",
+        "actual": "på garagelampan starta",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -688,14 +735,17 @@
       "text": "sätt färgen på sovrumslampa",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0006442070007324219,
+      "recognize_seconds": 0.0006444454193115234,
       "wav_seconds": 2.015437,
-      "transcribe_seconds": 0.121232,
+      "transcribe_seconds": 0.137778,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "sätt färgen på sovrumslampa RöD",
         "actual": "sätt färgen på sovrumslampa ***",
@@ -708,7 +758,8 @@
       "text": "sätt färgen på sovrumslampa blå",
       "intent": {
         "name": "ChangeLightColor",
-        "confidence": 0.8333333333333334
+        "confidence": 0.8333333333333334,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -750,9 +801,11 @@
         "color": "blå"
       },
       "intents": [],
-      "recognize_seconds": 0.0007658004760742188,
+      "recognize_seconds": 0.0007326602935791016,
       "wav_seconds": 2.08025,
-      "transcribe_seconds": 0.115137,
+      "transcribe_seconds": 0.150602,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "sätt färgen på sovrumslampa blå",
         "actual": "sätt färgen på sovrumslampa blå",
@@ -765,7 +818,8 @@
       "text": "on sovrumslampa tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.4
+        "confidence": 0.4,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -803,22 +857,25 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0007231235504150391,
+      "recognize_seconds": 0.0007948875427246094,
       "wav_seconds": 2.145125,
-      "transcribe_seconds": 0.11641,
+      "transcribe_seconds": 0.161429,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "SäTT FäRGEN På sovrumslampa GRöN",
-        "actual": "***   ***     ON  sovrumslampa TäND",
+        "expected": "SäTT FäRGEN på sovrumslampa GRöN",
+        "actual": "***   ***     på sovrumslampa TäND",
         "words": 5,
-        "correct": 1,
-        "errors": 4
+        "correct": 2,
+        "errors": 3
       }
     },
     "av_garagelampan_släck.wav": {
       "text": "off garagelampan stäng av",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -858,12 +915,14 @@
         "name": "garagelampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0005853176116943359,
+      "recognize_seconds": 0.0006117820739746094,
       "wav_seconds": 1.282063,
-      "transcribe_seconds": 0.099282,
+      "transcribe_seconds": 0.124842,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off garagelampan ***    SLäCK",
-        "actual": "off garagelampan STäNG AV",
+        "expected": "av  garagelampan ***    SLäCK",
+        "actual": "av  garagelampan STäNG AV",
         "words": 3,
         "correct": 2,
         "errors": 2
@@ -873,7 +932,8 @@
       "text": "hur varmt är det",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "hur varmt är det",
@@ -891,9 +951,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005919933319091797,
+      "recognize_seconds": 0.0005440711975097656,
       "wav_seconds": 0.98275,
-      "transcribe_seconds": 0.096621,
+      "transcribe_seconds": 0.114467,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "hur varmt är det",
         "actual": "hur varmt är det",
@@ -906,7 +968,8 @@
       "text": "ändra färg på sovrumslampa blå",
       "intent": {
         "name": "ChangeLightColor",
-        "confidence": 0.8333333333333334
+        "confidence": 0.8333333333333334,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -948,9 +1011,11 @@
         "color": "blå"
       },
       "intents": [],
-      "recognize_seconds": 0.0007119178771972656,
+      "recognize_seconds": 0.0007052421569824219,
       "wav_seconds": 2.040375,
-      "transcribe_seconds": 0.113284,
+      "transcribe_seconds": 0.135009,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "ändra färg på sovrumslampa blå",
         "actual": "ändra färg på sovrumslampa blå",
@@ -963,14 +1028,17 @@
       "text": "ändra färg på sovrumslampa",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0006561279296875,
+      "recognize_seconds": 0.0007398128509521484,
       "wav_seconds": 1.9705,
-      "transcribe_seconds": 0.113534,
+      "transcribe_seconds": 0.108685,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "ändra färg på sovrumslampa RöD",
         "actual": "ändra färg på sovrumslampa ***",
@@ -983,16 +1051,19 @@
       "text": "vad garage",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0004870891571044922,
+      "recognize_seconds": 0.0005438327789306641,
       "wav_seconds": 1.746063,
-      "transcribe_seconds": 0.154092,
+      "transcribe_seconds": 0.127515,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "OFF VARDAGSRUMSLAMPAN STäNG AV",
+        "expected": "AV  VARDAGSRUMSLAMPAN STäNG AV",
         "actual": "*** ***               VAD    GARAGE",
         "words": 4,
         "correct": 0,
@@ -1003,7 +1074,8 @@
       "text": "off sovrumslampa släck",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.6666666666666666
+        "confidence": 0.6666666666666666,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -1041,12 +1113,14 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0006067752838134766,
+      "recognize_seconds": 0.0005488395690917969,
       "wav_seconds": 1.322,
-      "transcribe_seconds": 0.102218,
+      "transcribe_seconds": 0.093175,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off sovrumslampa släck",
-        "actual": "off sovrumslampa släck",
+        "expected": "av  sovrumslampa släck",
+        "actual": "av  sovrumslampa släck",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -1056,7 +1130,8 @@
       "text": "on sovrumslampa tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.6666666666666666
+        "confidence": 0.6666666666666666,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -1094,12 +1169,14 @@
         "name": "sovrumslampa"
       },
       "intents": [],
-      "recognize_seconds": 0.0006082057952880859,
+      "recognize_seconds": 0.0006444454193115234,
       "wav_seconds": 1.43175,
-      "transcribe_seconds": 0.101287,
+      "transcribe_seconds": 0.141465,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  sovrumslampa tänd",
-        "actual": "on  sovrumslampa tänd",
+        "expected": "på sovrumslampa tänd",
+        "actual": "på sovrumslampa tänd",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -1109,7 +1186,8 @@
       "text": "on vardagsrumslampan tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -1147,12 +1225,14 @@
         "name": "vardagsrumslampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0006031990051269531,
+      "recognize_seconds": 0.0006194114685058594,
       "wav_seconds": 1.65125,
-      "transcribe_seconds": 0.106772,
+      "transcribe_seconds": 0.116592,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  vardagsrumslampan tänd",
-        "actual": "on  vardagsrumslampan tänd",
+        "expected": "på vardagsrumslampan tänd",
+        "actual": "på vardagsrumslampan tänd",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -1162,7 +1242,8 @@
       "text": "off vardagsrumslampan stäng av",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -1202,12 +1283,14 @@
         "name": "vardagsrumslampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0005803108215332031,
+      "recognize_seconds": 0.0005431175231933594,
       "wav_seconds": 1.496625,
-      "transcribe_seconds": 0.1043,
+      "transcribe_seconds": 0.131814,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "off vardagsrumslampan ***    SLäCK",
-        "actual": "off vardagsrumslampan STäNG AV",
+        "expected": "av  vardagsrumslampan ***    SLäCK",
+        "actual": "av  vardagsrumslampan STäNG AV",
         "words": 3,
         "correct": 2,
         "errors": 2
@@ -1217,7 +1300,8 @@
       "text": "ändra färg på sovrumslampa till blå",
       "intent": {
         "name": "ChangeLightColor",
-        "confidence": 0.8571428571428571
+        "confidence": 0.8571428571428571,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [
         {
@@ -1261,9 +1345,11 @@
         "color": "blå"
       },
       "intents": [],
-      "recognize_seconds": 0.0007250308990478516,
+      "recognize_seconds": 0.0008387565612792969,
       "wav_seconds": 2.239937,
-      "transcribe_seconds": 0.116109,
+      "transcribe_seconds": 0.155008,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "ändra färg på sovrumslampa till blå",
         "actual": "ändra färg på sovrumslampa till blå",
@@ -1276,7 +1362,8 @@
       "text": "on garagelampan tänd",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -1314,12 +1401,14 @@
         "name": "garagelampan"
       },
       "intents": [],
-      "recognize_seconds": 0.0006096363067626953,
+      "recognize_seconds": 0.0006415843963623047,
       "wav_seconds": 1.42175,
-      "transcribe_seconds": 0.101878,
+      "transcribe_seconds": 0.113554,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "on  garagelampan tänd",
-        "actual": "on  garagelampan tänd",
+        "expected": "på garagelampan tänd",
+        "actual": "på garagelampan tänd",
         "words": 3,
         "correct": 3,
         "errors": 0
@@ -1329,7 +1418,8 @@
       "text": "hur mycket är klockan",
       "intent": {
         "name": "GetTime",
-        "confidence": 0.5
+        "confidence": 0.5,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "hur mycket är klockan",
@@ -1347,9 +1437,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005192756652832031,
+      "recognize_seconds": 0.0009577274322509766,
       "wav_seconds": 1.287062,
-      "transcribe_seconds": 0.097718,
+      "transcribe_seconds": 0.113037,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "hur mycket är klockan",
         "actual": "hur mycket är klockan",
@@ -1362,14 +1454,17 @@
       "text": "sätt färgen på sovrumslampa till läs",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightColor"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 0.0006821155548095703,
+      "recognize_seconds": 0.0006954669952392578,
       "wav_seconds": 2.205,
-      "transcribe_seconds": 0.123551,
+      "transcribe_seconds": 0.136461,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "sätt färgen på sovrumslampa till RöD",
         "actual": "sätt färgen på sovrumslampa till LäS",
@@ -1382,7 +1477,8 @@
       "text": "berätta tiden för mig",
       "intent": {
         "name": "GetTime",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTime"
       },
       "entities": [],
       "raw_text": "berätta tiden för mig",
@@ -1400,9 +1496,11 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0005586147308349609,
+      "recognize_seconds": 0.0004932880401611328,
       "wav_seconds": 1.272125,
-      "transcribe_seconds": 0.098199,
+      "transcribe_seconds": 0.115528,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "berätta tiden för mig",
         "actual": "berätta tiden för mig",

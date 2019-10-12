@@ -1,0 +1,273 @@
+{
+  "statistics": {
+    "num_wavs": 11,
+    "num_words": 66,
+    "num_entities": 0,
+    "correct_transcriptions": 0,
+    "correct_intent_names": 0,
+    "correct_words": 7,
+    "correct_entities": 0,
+    "transcription_accuracy": 0.10606060606060606,
+    "intent_accuracy": 1,
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 1.1796089700018906
+  },
+  "actual": {
+    "common_voice_sv-SE_18746434.wav": {
+      "text": "å och eec har ett är eller unge ge råd skadad av bli ung att",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0007338523864746094,
+      "wav_seconds": 4.704,
+      "transcribe_seconds": 6.539996,
+      "word_error": {
+        "expected": "*** *** *** har *** *** ***   ***  JAG SAGT HUR    MYCKET JAG UPPSKATTAR DIG?",
+        "actual": "å  OCH EEC har ETT äR ELLER UNGE GE  RåD SKADAD AV     BLI UNG        ATT",
+        "words": 8,
+        "correct": 1,
+        "errors": 14
+      }
+    },
+    "common_voice_sv-SE_18737932.wav": {
+      "text": "s. den nu b) dras s. åt och och du jan om vars om sov han",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 8.320808410644531e-05,
+      "wav_seconds": 4.32,
+      "transcribe_seconds": 10.196016,
+      "word_error": {
+        "expected": "*** *** *** *** ***  *** *** *** *** DET äR NOG DAGS ATT åTERGäLDA TJäNSTEN",
+        "actual": "S   DEN NU  B)  DRAS S   åT OCH OCH DU  JAN OM  VARS OM  SOV         HAN",
+        "words": 7,
+        "correct": 0,
+        "errors": 16
+      }
+    },
+    "common_voice_sv-SE_18717015.wav": {
+      "text": "skulle vi ett vem år ge år a hör för fästa År att",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0005402565002441406,
+      "wav_seconds": 4.104,
+      "transcribe_seconds": 8.810495,
+      "word_error": {
+        "expected": "***    vi  *** *** äR FEM OCH äR HäR för ***    ATT FESTA",
+        "actual": "SKULLE vi  ETT VEM åR GE  åR A   HöR för FäSTA ÅR ATT",
+        "words": 9,
+        "correct": 2,
+        "errors": 11
+      }
+    },
+    "common_voice_sv-SE_18748646.wav": {
+      "text": "d kan sånt all klart n",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 9.489059448242188e-05,
+      "wav_seconds": 2.304,
+      "transcribe_seconds": 5.02505,
+      "word_error": {
+        "expected": "*** kan JAG   Få TALA  KLART?",
+        "actual": "D   kan SåNT ALL KLART N",
+        "words": 5,
+        "correct": 1,
+        "errors": 5
+      }
+    },
+    "common_voice_sv-SE_18746511.wav": {
+      "text": "dk göra råd hör du och här en av ddt tom ha akt",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0005407333374023438,
+      "wav_seconds": 3.576,
+      "transcribe_seconds": 13.467049,
+      "word_error": {
+        "expected": "*** JAG   ANTAR ATT  du  *** äR  en  av  *** *** *** DEM",
+        "actual": "DK  GöRA RåD  HöR du  OCH HäR en  av  DDT TOM HA  AKT",
+        "words": 8,
+        "correct": 3,
+        "errors": 10
+      }
+    },
+    "common_voice_sv-SE_18733516.wav": {
+      "text": "om t.h. fattiga alla den",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 7.677078247070312e-05,
+      "wav_seconds": 5.064,
+      "transcribe_seconds": 4.22495,
+      "word_error": {
+        "expected": "*** *** HAN GILLAR  DET  VISST!",
+        "actual": "OM  T   H   FATTIGA ALLA DEN",
+        "words": 4,
+        "correct": 0,
+        "errors": 6
+      }
+    },
+    "common_voice_sv-SE_18716987.wav": {
+      "text": "slott hos bör År att hon s. åker om kg atp",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 7.963180541992188e-05,
+      "wav_seconds": 4.008,
+      "transcribe_seconds": 9.66672,
+      "word_error": {
+        "expected": "***   *** ***  *** *** LåT OSS HöRA På HANS PLAN",
+        "actual": "SLOTT HOS BöR ÅR ATT HON  S   åKER OM  KG   ATP",
+        "words": 6,
+        "correct": 0,
+        "errors": 11
+      }
+    },
+    "common_voice_sv-SE_18877958.wav": {
+      "text": "spel relativt",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 6.461143493652344e-05,
+      "wav_seconds": 8.232,
+      "transcribe_seconds": 1.237917,
+      "word_error": {
+        "expected": "OCH VAD HAR  HäNT?",
+        "actual": "*** *** SPEL RELATIVT",
+        "words": 4,
+        "correct": 0,
+        "errors": 4
+      }
+    },
+    "common_voice_sv-SE_18742722.wav": {
+      "text": "å ja lämna är äga ett",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0005292892456054688,
+      "wav_seconds": 2.952,
+      "transcribe_seconds": 2.327436,
+      "word_error": {
+        "expected": "*** *** ***    JAG LäMNAR DIG",
+        "actual": "å  JA  LäMNA äR äGA    ETT",
+        "words": 3,
+        "correct": 0,
+        "errors": 6
+      }
+    },
+    "common_voice_sv-SE_18711295.wav": {
+      "text": "f kaos oss och öre s. av väl het",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0005245208740234375,
+      "wav_seconds": 4.056,
+      "transcribe_seconds": 4.244947,
+      "word_error": {
+        "expected": "*** ***  *** *** HAR  DU  FORTFARANDE SAMMA NUMMER?",
+        "actual": "F   KAOS OSS OCH öRE S   AV          VäL  HET",
+        "words": 5,
+        "correct": 0,
+        "errors": 9
+      }
+    },
+    "common_voice_sv-SE_18746534.wav": {
+      "text": "t.h. s. sagts har dig in grad k en hör ha oljan rakt",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 7.867813110351562e-05,
+      "wav_seconds": 4.296,
+      "transcribe_seconds": 27.545719,
+      "word_error": {
+        "expected": "*** *** *** ***   *** *** *** SEX  MåNADER TILL AV   DEN HäR  SKITEN",
+        "actual": "T   H   S   SAGTS HAR DIG IN  GRAD K        EN   HöR HA  OLJAN RAKT",
+        "words": 7,
+        "correct": 0,
+        "errors": 14
+      }
+    }
+  },
+  "expected": {
+    "common_voice_sv-SE_18746434.wav": {
+      "text": "Har jag sagt hur mycket jag uppskattar dig?"
+    },
+    "common_voice_sv-SE_18737932.wav": {
+      "text": "Det är nog dags att återgälda tjänsten."
+    },
+    "common_voice_sv-SE_18717015.wav": {
+      "text": "Vi är fem och är här för att festa."
+    },
+    "common_voice_sv-SE_18748646.wav": {
+      "text": "Kan jag få tala klart?"
+    },
+    "common_voice_sv-SE_18746511.wav": {
+      "text": "Jag antar att du är en av dem."
+    },
+    "common_voice_sv-SE_18733516.wav": {
+      "text": "Han gillar det visst!"
+    },
+    "common_voice_sv-SE_18716987.wav": {
+      "text": "Låt oss höra på hans plan."
+    },
+    "common_voice_sv-SE_18877958.wav": {
+      "text": "Och vad har hänt?"
+    },
+    "common_voice_sv-SE_18742722.wav": {
+      "text": "Jag lämnar dig."
+    },
+    "common_voice_sv-SE_18711295.wav": {
+      "text": "Har du fortfarande samma nummer?"
+    },
+    "common_voice_sv-SE_18746534.wav": {
+      "text": "Sex månader till av den här skiten."
+    }
+  }
+}
