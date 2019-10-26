@@ -21,3 +21,5 @@ training:
 text-to-speech:
   espeak:
     voice: "sv"
+  marytts:
+    voice: "stts-sv-hb-hsmm"
