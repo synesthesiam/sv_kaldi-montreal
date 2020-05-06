@@ -1,273 +1,715 @@
 {
-  "statistics": {
-    "num_wavs": 11,
-    "num_words": 66,
-    "num_entities": 0,
-    "correct_transcriptions": 0,
-    "correct_intent_names": 0,
-    "correct_words": 7,
-    "correct_entities": 0,
-    "transcription_accuracy": 0.10606060606060606,
-    "intent_accuracy": 1,
-    "entity_accuracy": 1,
-    "intent_entity_accuracy": 1,
-    "average_transcription_speedup": 1.1796089700018906
+  "expected": {
+    "common_voice_sv-SE_18737932.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Det är nog dags att återgälda tjänsten.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18746434.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Har jag sagt hur mycket jag uppskattar dig?",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18742722.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Jag lämnar dig.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18711295.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Har du fortfarande samma nummer?",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18748646.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Kan jag få tala klart?",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18717015.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Vi är fem och är här för att festa.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18716987.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Låt oss höra på hans plan.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18746534.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Sex månader till av den här skiten.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18733516.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Han gillar det visst!",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18877958.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Och vad har hänt?",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "common_voice_sv-SE_18746511.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "Jag antar att du är en av dem.",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
   },
   "actual": {
-    "common_voice_sv-SE_18746434.wav": {
-      "text": "å och eec har ett är eller unge ge råd skadad av bli ung att",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0007338523864746094,
-      "wav_seconds": 4.704,
-      "transcribe_seconds": 6.539996,
-      "word_error": {
-        "expected": "*** *** *** har *** *** ***   ***  JAG SAGT HUR    MYCKET JAG UPPSKATTAR DIG?",
-        "actual": "å  OCH EEC har ETT äR ELLER UNGE GE  RåD SKADAD AV     BLI UNG        ATT",
-        "words": 8,
-        "correct": 1,
-        "errors": 14
-      }
-    },
     "common_voice_sv-SE_18737932.wav": {
-      "text": "s. den nu b) dras s. åt och och du jan om vars om sov han",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 8.320808410644531e-05,
+      "text": "den då dras åt återger världshorisont han",
+      "raw_text": "den då dras åt återger världshorisont han",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 4.32,
-      "transcribe_seconds": 10.196016,
+      "transcribe_seconds": 25.28475241600063,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18737932.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "*** *** *** *** ***  *** *** *** *** DET äR NOG DAGS ATT åTERGäLDA TJäNSTEN",
-        "actual": "S   DEN NU  B)  DRAS S   åT OCH OCH DU  JAN OM  VARS OM  SOV         HAN",
+        "reference": [
+          "det",
+          "är",
+          "nog",
+          "dags",
+          "att",
+          "återgälda",
+          "tjänsten."
+        ],
+        "hypothesis": [
+          "den",
+          "då",
+          "dras",
+          "åt",
+          "återger",
+          "världshorisont",
+          "han"
+        ],
+        "differences": [
+          "det:den",
+          "är:då",
+          "nog:dras",
+          "dags:åt",
+          "att:återger",
+          "återgälda:världshorisont",
+          "tjänsten.:han"
+        ],
         "words": 7,
-        "correct": 0,
-        "errors": 16
+        "errors": 7,
+        "matches": 0,
+        "substitutions": 7,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
       }
     },
-    "common_voice_sv-SE_18717015.wav": {
-      "text": "skulle vi ett vem år ge år a hör för fästa År att",
+    "common_voice_sv-SE_18746434.wav": {
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0005402565002441406,
-      "wav_seconds": 4.104,
-      "transcribe_seconds": 8.810495,
+      "text": "återger ljud skadad blir att",
+      "raw_text": "återger ljud skadad blir att",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.704,
+      "transcribe_seconds": 20.379232328999933,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18746434.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "***    vi  *** *** äR FEM OCH äR HäR för ***    ATT FESTA",
-        "actual": "SKULLE vi  ETT VEM åR GE  åR A   HöR för FäSTA ÅR ATT",
-        "words": 9,
-        "correct": 2,
-        "errors": 11
-      }
-    },
-    "common_voice_sv-SE_18748646.wav": {
-      "text": "d kan sånt all klart n",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 9.489059448242188e-05,
-      "wav_seconds": 2.304,
-      "transcribe_seconds": 5.02505,
-      "word_error": {
-        "expected": "*** kan JAG   Få TALA  KLART?",
-        "actual": "D   kan SåNT ALL KLART N",
-        "words": 5,
-        "correct": 1,
-        "errors": 5
-      }
-    },
-    "common_voice_sv-SE_18746511.wav": {
-      "text": "dk göra råd hör du och här en av ddt tom ha akt",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0005407333374023438,
-      "wav_seconds": 3.576,
-      "transcribe_seconds": 13.467049,
-      "word_error": {
-        "expected": "*** JAG   ANTAR ATT  du  *** äR  en  av  *** *** *** DEM",
-        "actual": "DK  GöRA RåD  HöR du  OCH HäR en  av  DDT TOM HA  AKT",
+        "reference": [
+          "har",
+          "jag",
+          "sagt",
+          "hur",
+          "mycket",
+          "jag",
+          "uppskattar",
+          "dig?"
+        ],
+        "hypothesis": [
+          "återger",
+          "ljud",
+          "skadad",
+          "blir",
+          "att"
+        ],
+        "differences": [
+          "hur:återger",
+          "mycket:ljud",
+          "jag:skadad",
+          "uppskattar:blir",
+          "dig?:att"
+        ],
         "words": 8,
-        "correct": 3,
-        "errors": 10
-      }
-    },
-    "common_voice_sv-SE_18733516.wav": {
-      "text": "om t.h. fattiga alla den",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 7.677078247070312e-05,
-      "wav_seconds": 5.064,
-      "transcribe_seconds": 4.22495,
-      "word_error": {
-        "expected": "*** *** HAN GILLAR  DET  VISST!",
-        "actual": "OM  T   H   FATTIGA ALLA DEN",
-        "words": 4,
-        "correct": 0,
-        "errors": 6
-      }
-    },
-    "common_voice_sv-SE_18716987.wav": {
-      "text": "slott hos bör År att hon s. åker om kg atp",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 7.963180541992188e-05,
-      "wav_seconds": 4.008,
-      "transcribe_seconds": 9.66672,
-      "word_error": {
-        "expected": "***   *** ***  *** *** LåT OSS HöRA På HANS PLAN",
-        "actual": "SLOTT HOS BöR ÅR ATT HON  S   åKER OM  KG   ATP",
-        "words": 6,
-        "correct": 0,
-        "errors": 11
-      }
-    },
-    "common_voice_sv-SE_18877958.wav": {
-      "text": "spel relativt",
-      "intent": {
-        "name": "",
-        "confidence": 0
-      },
-      "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 6.461143493652344e-05,
-      "wav_seconds": 8.232,
-      "transcribe_seconds": 1.237917,
-      "word_error": {
-        "expected": "OCH VAD HAR  HäNT?",
-        "actual": "*** *** SPEL RELATIVT",
-        "words": 4,
-        "correct": 0,
-        "errors": 4
+        "errors": 8,
+        "matches": 0,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.625
       }
     },
     "common_voice_sv-SE_18742722.wav": {
-      "text": "å ja lämna är äga ett",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0005292892456054688,
+      "text": "åldrar lämnar ägt",
+      "raw_text": "åldrar lämnar ägt",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 2.952,
-      "transcribe_seconds": 2.327436,
+      "transcribe_seconds": 9.550097355999242,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18742722.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "*** *** ***    JAG LäMNAR DIG",
-        "actual": "å  JA  LäMNA äR äGA    ETT",
+        "reference": [
+          "jag",
+          "lämnar",
+          "dig."
+        ],
+        "hypothesis": [
+          "åldrar",
+          "lämnar",
+          "ägt"
+        ],
+        "differences": [
+          "jag:åldrar",
+          "lämnar",
+          "dig.:ägt"
+        ],
         "words": 3,
-        "correct": 0,
-        "errors": 6
+        "errors": 2,
+        "matches": 1,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.6666666666666666
       }
     },
     "common_voice_sv-SE_18711295.wav": {
-      "text": "f kaos oss och öre s. av väl het",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 0.0005245208740234375,
+      "text": "hos oss har som margaret",
+      "raw_text": "hos oss har som margaret",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 4.056,
-      "transcribe_seconds": 4.244947,
+      "transcribe_seconds": 15.175364483999147,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18711295.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "*** ***  *** *** HAR  DU  FORTFARANDE SAMMA NUMMER?",
-        "actual": "F   KAOS OSS OCH öRE S   AV          VäL  HET",
+        "reference": [
+          "har",
+          "du",
+          "fortfarande",
+          "samma",
+          "nummer?"
+        ],
+        "hypothesis": [
+          "hos",
+          "oss",
+          "har",
+          "som",
+          "margaret"
+        ],
+        "differences": [
+          "har:hos",
+          "du:oss",
+          "fortfarande:har",
+          "samma:som",
+          "nummer?:margaret"
+        ],
         "words": 5,
-        "correct": 0,
-        "errors": 9
+        "errors": 5,
+        "matches": 0,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
+      }
+    },
+    "common_voice_sv-SE_18748646.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "därför börjar och kön",
+      "raw_text": "därför börjar och kön",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 2.304,
+      "transcribe_seconds": 16.08199905299989,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18748646.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "kan",
+          "jag",
+          "få",
+          "tala",
+          "klart?"
+        ],
+        "hypothesis": [
+          "därför",
+          "börjar",
+          "och",
+          "kön"
+        ],
+        "differences": [
+          "jag:därför",
+          "få:börjar",
+          "tala:och",
+          "klart?:kön"
+        ],
+        "words": 5,
+        "errors": 5,
+        "matches": 0,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8
+      }
+    },
+    "common_voice_sv-SE_18717015.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "såväl morgonen har för västar att",
+      "raw_text": "såväl morgonen har för västar att",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.104,
+      "transcribe_seconds": 22.37592483500157,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18717015.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "vi",
+          "är",
+          "fem",
+          "och",
+          "är",
+          "här",
+          "för",
+          "att",
+          "festa."
+        ],
+        "hypothesis": [
+          "såväl",
+          "morgonen",
+          "har",
+          "för",
+          "västar",
+          "att"
+        ],
+        "differences": [
+          "och:såväl",
+          "är:morgonen",
+          "här:har",
+          "för",
+          "att:västar",
+          "festa.:att"
+        ],
+        "words": 9,
+        "errors": 8,
+        "matches": 1,
+        "substitutions": 5,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.5555555555555556
+      }
+    },
+    "common_voice_sv-SE_18716987.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "slåss för att oavsett om grepp",
+      "raw_text": "slåss för att oavsett om grepp",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 4.008,
+      "transcribe_seconds": 23.79604137199931,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18716987.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "låt",
+          "oss",
+          "höra",
+          "på",
+          "hans",
+          "plan."
+        ],
+        "hypothesis": [
+          "slåss",
+          "för",
+          "att",
+          "oavsett",
+          "om",
+          "grepp"
+        ],
+        "differences": [
+          "låt:slåss",
+          "oss:för",
+          "höra:att",
+          "på:oavsett",
+          "hans:om",
+          "plan.:grepp"
+        ],
+        "words": 6,
+        "errors": 6,
+        "matches": 0,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 1
       }
     },
     "common_voice_sv-SE_18746534.wav": {
-      "text": "t.h. s. sagts har dig in grad k en hör ha oljan rakt",
       "intent": {
         "name": "",
         "confidence": 0
       },
       "entities": [],
-      "intents": [],
-      "slots": {},
-      "recognize_seconds": 7.867813110351562e-05,
+      "text": "t.h. slags har du till att gälla råolja något",
+      "raw_text": "t.h. slags har du till att gälla råolja något",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
       "wav_seconds": 4.296,
-      "transcribe_seconds": 27.545719,
+      "transcribe_seconds": 43.98536217800029,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18746534.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
-        "expected": "*** *** *** ***   *** *** *** SEX  MåNADER TILL AV   DEN HäR  SKITEN",
-        "actual": "T   H   S   SAGTS HAR DIG IN  GRAD K        EN   HöR HA  OLJAN RAKT",
+        "reference": [
+          "sex",
+          "månader",
+          "till",
+          "av",
+          "den",
+          "här",
+          "skiten."
+        ],
+        "hypothesis": [
+          "t.h.",
+          "slags",
+          "har",
+          "du",
+          "till",
+          "att",
+          "gälla",
+          "råolja",
+          "något"
+        ],
+        "differences": [
+          "sex:har",
+          "månader:du",
+          "till",
+          "av:att",
+          "den:gälla",
+          "här:råolja",
+          "skiten.:något"
+        ],
         "words": 7,
-        "correct": 0,
-        "errors": 14
+        "errors": 8,
+        "matches": 1,
+        "substitutions": 6,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.8571428571428571
+      }
+    },
+    "common_voice_sv-SE_18733516.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "om t.h. patienten",
+      "raw_text": "om t.h. patienten",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 5.064,
+      "transcribe_seconds": 16.37445829599892,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18733516.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "han",
+          "gillar",
+          "det",
+          "visst!"
+        ],
+        "hypothesis": [
+          "om",
+          "t.h.",
+          "patienten"
+        ],
+        "differences": [
+          "gillar:om",
+          "det:t.h.",
+          "visst!:patienten"
+        ],
+        "words": 4,
+        "errors": 4,
+        "matches": 0,
+        "substitutions": 3,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.75
+      }
+    },
+    "common_voice_sv-SE_18877958.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "som relativt",
+      "raw_text": "som relativt",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 8.232,
+      "transcribe_seconds": 5.756401830998584,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18877958.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "och",
+          "vad",
+          "har",
+          "hänt?"
+        ],
+        "hypothesis": [
+          "som",
+          "relativt"
+        ],
+        "differences": [
+          "har:som",
+          "hänt?:relativt"
+        ],
+        "words": 4,
+        "errors": 4,
+        "matches": 0,
+        "substitutions": 2,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0.5
+      }
+    },
+    "common_voice_sv-SE_18746511.wav": {
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "text": "i börjar duger en av tom hardt",
+      "raw_text": "i börjar duger en av tom hardt",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": 3.576,
+      "transcribe_seconds": 30.361646297000334,
+      "speech_confidence": null,
+      "wav_name": "common_voice_sv-SE_18746511.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "jag",
+          "antar",
+          "att",
+          "du",
+          "är",
+          "en",
+          "av",
+          "dem."
+        ],
+        "hypothesis": [
+          "i",
+          "börjar",
+          "duger",
+          "en",
+          "av",
+          "tom",
+          "hardt"
+        ],
+        "differences": [
+          "att:i",
+          "du:börjar",
+          "är:duger",
+          "en",
+          "av",
+          "+tom",
+          "dem.:hardt"
+        ],
+        "words": 8,
+        "errors": 7,
+        "matches": 2,
+        "substitutions": 4,
+        "deletions": 0,
+        "insertions": 1,
+        "error_rate": 0.625
       }
     }
   },
-  "expected": {
-    "common_voice_sv-SE_18746434.wav": {
-      "text": "Har jag sagt hur mycket jag uppskattar dig?"
-    },
-    "common_voice_sv-SE_18737932.wav": {
-      "text": "Det är nog dags att återgälda tjänsten."
-    },
-    "common_voice_sv-SE_18717015.wav": {
-      "text": "Vi är fem och är här för att festa."
-    },
-    "common_voice_sv-SE_18748646.wav": {
-      "text": "Kan jag få tala klart?"
-    },
-    "common_voice_sv-SE_18746511.wav": {
-      "text": "Jag antar att du är en av dem."
-    },
-    "common_voice_sv-SE_18733516.wav": {
-      "text": "Han gillar det visst!"
-    },
-    "common_voice_sv-SE_18716987.wav": {
-      "text": "Låt oss höra på hans plan."
-    },
-    "common_voice_sv-SE_18877958.wav": {
-      "text": "Och vad har hänt?"
-    },
-    "common_voice_sv-SE_18742722.wav": {
-      "text": "Jag lämnar dig."
-    },
-    "common_voice_sv-SE_18711295.wav": {
-      "text": "Har du fortfarande samma nummer?"
-    },
-    "common_voice_sv-SE_18746534.wav": {
-      "text": "Sex månader till av den här skiten."
-    }
-  }
+  "num_wavs": 11,
+  "num_words": 66,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 0,
+  "correct_intent_names": 0,
+  "correct_words": 5,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 0.07575757575757576,
+  "intent_accuracy": 1,
+  "entity_accuracy": 1,
+  "intent_entity_accuracy": 1,
+  "average_transcription_speedup": 0.31163081782871854
 }
